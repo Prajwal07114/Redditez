@@ -4,7 +4,7 @@ import { supabase } from "../supabase.client";
 
 
 interface AuthContextType{
-  user :User |null;
+  
   signInWithGithub : ()=>void;
   signOut : () => void ;
 }
