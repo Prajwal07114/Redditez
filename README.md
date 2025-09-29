@@ -34,39 +34,35 @@ This project allows users to authenticate, create posts, and interact in a Reddi
 ---
 
 ## 📂 Project Structure
+SEPTEMBER-REDDIT-CLONE:
+  node_modules: {}
+  public: {}
+  src:
+    assets: # Images, icons, and other static assets
+    components: # Reusable UI components
+      CreateP.tsx: "Component to trigger post creation"
+      Navbar.tsx: "Navigation bar"
+    context: # React Context for global state
+      AuthContext.tsx: "Authentication context"
+    pages: # Page-level components
+      CreatePost.tsx: "Create post page"
+      Home.tsx: "Home feed"
+    App.tsx: "Root component"
+    index.css: "Global styles"
+    main.tsx: "Entry point"
+    supabase.client.ts: "Supabase / database client setup"
+  .env: "Environment variables"
+  .gitignore: "Git ignore file"
+  eslint.config.js: "ESLint configuration"
+  index.html: "Base HTML file"
+  package-lock.json: "Dependency lock file"
+  package.json: "Project metadata & dependencies"
+  README.md: "Project documentation"
+  tsconfig.app.json: "TypeScript app config"
+  tsconfig.json: "TypeScript config"
+  tsconfig.node.json: "TypeScript Node config"
+  vite.config.ts: "Vite configuration"
 
-
-SEPTEMBER-REDDIT-CLONE/
-├── node_modules/
-├── public/
-├── src/
-│ ├── assets/ # Images, icons, and other static assets
-│ ├── components/ # Reusable UI components
-│ │ ├── CreateP.tsx # Component to trigger post creation
-│ │ └── Navbar.tsx # Navigation bar
-│ ├── context/ # React Context for global state
-│ │ └── AuthContext.tsx # Authentication context
-│ ├── pages/ # Page-level components
-│ │ ├── CreatePost.tsx # Create post page
-│ │ └── Home.tsx # Home feed
-│ ├── App.tsx # Root component
-│ ├── index.css # Global styles
-│ ├── main.tsx # Entry point
-│ └── supabase.client.ts # Supabase / database client setup
-├── .env # Environment variables
-├── .gitignore # Git ignore file
-├── eslint.config.js # ESLint configuration
-├── index.html # Base HTML file
-├── package-lock.json # Dependency lock file
-├── package.json # Project metadata & dependencies
-├── README.md # Project documentation
-├── tsconfig.app.json # TypeScript app config
-├── tsconfig.json # TypeScript config
-├── tsconfig.node.json # TypeScript Node config
-└── vite.config.ts # Vite configuration
-
-
----
 
 ## ⚙️ Setup Instructions
 
